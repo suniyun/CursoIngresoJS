@@ -17,4 +17,6 @@ function SacarResto()
     resultado=dividendo%divisor;    
     
     alert("La division es "+resultado);
+
+
 }
