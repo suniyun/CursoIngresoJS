@@ -7,10 +7,14 @@ function mostrarAumento()
     var sueldo;
     var porcentaje;
     var resultado;
+    
     sueldo=document.getElementById("sueldo").value;
     
     sueldo=parseInt(sueldo);
+    
     porcentaje=sueldo*1/100;
+
     resultado=sueldo+porcentaje;
+
 	document.getElementById("resultado").value=resultado;
 }
