@@ -19,12 +19,6 @@ function Rectangulo ()
     alambre = largo * ancho;
 
     confirm("La cantidad a usar de alambre es " + alambre);
-
-
-
-
-
-    
     
 }
 function Circulo () 
