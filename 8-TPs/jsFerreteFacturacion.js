@@ -10,17 +10,17 @@ function Sumar ()
     var precio3;
     var suma;   
 
-    precio1=document.getElementById("precio1").value;
-    precio2=document.getElementById("precio2").value;
-    precio3=document.getElementById("precio3").value;
+    precio1 = document.getElementById("precio1").value;
+    precio2 = document.getElementById("precio2").value;
+    precio3 = document.getElementById("precio3").value;
 
-    precio1=parseInt(precio1);
-    precio2=parseInt(precio2);
-    precio3=parseInt(precio3);
+    precio1 = parseInt(precio1);
+    precio2 = parseInt(precio2);
+    precio3 = parseInt(precio3);
 
-    suma=precio1+precio2+precio3;
+    suma = precio1+precio2+precio3;
 
-    confirm("La suma de todos los precios es "+suma);
+    confirm("La suma de todos los precios es " + suma);
 
 
 

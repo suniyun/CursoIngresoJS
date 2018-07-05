@@ -10,15 +10,15 @@ function Rectangulo ()
     var ancho;
     var alambre;
     
-    largo=document.getElementById("largo").value;
-    ancho=document.getElementById("ancho").value;
+    largo = document.getElementById("largo").value;
+    ancho = document.getElementById("ancho").value;
 
-    largo=parseInt(largo);
-    ancho=parseInt(ancho);
+    largo = parseInt(largo);
+    ancho = parseInt(ancho);
 
-    alambre=largo*ancho;
+    alambre = largo * ancho;
 
-    confirm("La cantidad a usar de alambre es "+alambre);
+    confirm("La cantidad a usar de alambre es " + alambre);
 
 
 
@@ -32,9 +32,9 @@ function Circulo ()
     var radio
     var alambre
 
-    radio=document.getElementById("radio").value;
+    radio = document.getElementById("radio").value;
 
-    radio=parseInt(radio);
+    radio = parseInt(radio);
 
     
 	
