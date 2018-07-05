@@ -8,16 +8,9 @@ function mostrarAumento()
     var porcentaje;
     var resultado;
     sueldo=document.getElementById("sueldo").value;
-    sueldo=parseInt(sueldo);
-    porcentaje=sueldo*0,1;
-    resultado=sueldo+porcentaje;
     
-
-
-
-
-
-
-
-	
+    sueldo=parseInt(sueldo);
+    porcentaje=sueldo*1/100;
+    resultado=sueldo+porcentaje;
+	document.getElementById("resultado").value=resultado;
 }
