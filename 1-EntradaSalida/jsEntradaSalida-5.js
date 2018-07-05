@@ -8,5 +8,5 @@ function mostrar()
     edad=document.getElementById("laEdad").value;
     alert("Usted se llama "+nombre+" y su edad es "+edad);
 
-}
+}   
 
