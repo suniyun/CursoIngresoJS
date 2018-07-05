@@ -10,8 +10,8 @@ function Rectangulo ()
     var ancho;
     var alambre;
     
-    largo = document.getElementById("largo").value;
-    ancho = document.getElementById("ancho").value;
+    largo = document.getElementById("Largo").value;
+    ancho = document.getElementById("Ancho").value;
 
     largo = parseInt(largo);
     ancho = parseInt(ancho);
@@ -26,10 +26,16 @@ function Circulo ()
     var radio
     var alambre
 
-    radio = document.getElementById("radio").value;
+    radio = document.getElementById("Radio").value;
 
     radio = parseInt(radio);
+    
 
+    alambre = Math.PI * Math.pow(radio, 2);
+    alambre = parseInt(alambre);
+    
+
+    confirm("La cantidad a usar de alambre es "+ alambre);
     
 	
 }
@@ -37,13 +43,21 @@ function Materiales ()
 {
 	var largo;
     var ancho;
-    var materiales;
+    var cemento;
+    var cal;
 
-    largo=document.getElementById("largo").value;
-    ancho=document.getElementById("ancho").value;
+    largo=document.getElementById("Largo").value;
+    ancho=document.getElementById("Ancho").value;
 
     largo=parseInt(largo);
     ancho=parseInt(ancho);
+
+    cemento = largo * ancho;
+    cal = largo * ancho;
+
+    confirm("La cantidad de bolsas de cemento necesarias es " + cemento + " y de cal "+ cal);
+
+
 
 
 
