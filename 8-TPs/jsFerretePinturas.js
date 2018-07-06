@@ -20,16 +20,16 @@ function FahrenheitCentigrados ()
 
 function CentigradosFahrenheit () 
 {
-    var Fahrenheit;
-    var Centigrados;
+    var fahrenheit;
+    var centigrados;
 
-    Centigrados = document.getElementById("Temperatura").value;
+    centigrados = document.getElementById("Temperatura").value;
 
-    Centigrados = parseInt(Centigrados);
+    centigrados = parseInt(centigrados);
 
-    Fahrenheit= Centigrados + 32*1,8;
+    fahrenheit= centigrados + 32*1,8;
 
-    alert(Centigrados + " Centigrados son " + Fahrenheit + " Fahrenheit");
+    alert(centigrados + " Centigrados son " + fahrenheit + " Fahrenheit");
 
     
 }
