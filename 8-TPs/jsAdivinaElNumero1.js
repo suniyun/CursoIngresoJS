@@ -15,12 +15,23 @@ function comenzar()
 	//Genero el número RANDOM entre 1 y 100
 	 
 		//alert(numeroSecreto );
+
+    numeroSecreto = Math.floor(Math.random() * (101-1)) + 1;
+    contadorIntentos = 0;
+    console.log(numeroSecreto);
+
 	
 
 }
 
 function verificar()
 {
-	
+	var numero = document.getElementById("numero").value;
+  if (numero == numeroSecreto){
+    alert("gano");
+
+  } else if(numero > numeroSecreto){
+
+  }
 	
 }
