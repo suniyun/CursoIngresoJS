@@ -38,6 +38,7 @@ switch(laHora){
     default:
         alert("La hora no existe.");
     break;
+    
 }
 
 

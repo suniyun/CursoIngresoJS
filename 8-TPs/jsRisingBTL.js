@@ -9,5 +9,62 @@ F.	Nacionalidad, “A” para argentinos, “E” para extranjeros, “N” para
  */
 function ComenzarIngreso () 
 {
- 
+    var sexo = prompt("Ingrese su sexo (F ó M).");
+    var edad = prompt ("Ingrese su edad.");
+    var estadoCivil = prompt ("Ingrese su estado civil (1 para soltero, 2 para casado, 3 para divorciado, 4 para viudo).");
+    var sueldoBruto = prompt ("Ingrese su sueldo bruto.");
+    var legajo = prompt ("Ingrese su legajo.");
+    var nacionalidad = prompt("Ingrese su nacionalidad.");
+
+    switch (sexo){
+        case "f":
+            document.getElementById("Sexo").value = sexo;
+        break;
+        case "m":
+            document.getElementById("Sexo").value = sexo;
+        break;
+        
+    } switch(edad){
+        case (edad > 18):
+            document.getElementById("Edad").value = edad;
+        break;
+        case (edad < 90):
+            document.getElementById("Edad").value = edad;
+        break;
+
+    } switch (estadoCivil){
+        case 1:
+        case 2:
+        case 3:
+        case 4:
+            document.getElementById("EstadoCivil").value = estadoCivil;
+        break;
+
+    } switch (sueldoBruto){
+        case (sueldoBruto > 8000):
+            document.getElementById("Sueldo").value = sueldoBruto;
+        break;
+            
+    } switch (legajo){
+        case (legajo < 1000):
+            document.getElementById("Legajo").value = legajo;
+        break;
+        case (legajo > 9999):
+            document.getElementById("Legajo").value = legajo;
+        break;
+
+    } switch (nacionalidad){
+        case "A": 
+            document.getElementById("Nacionalidad").value = nacionalidad;
+        break;
+        case "E":
+            document.getElementById("Nacionalidad").value = nacionalidad;
+        break;
+        case "N":
+            document.getElementById("Nacionalidad").value = nacionalidad;
+        break;
+        }
+
 }
+
+

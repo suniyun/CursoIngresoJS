@@ -11,6 +11,7 @@ switch(laHora){
     case "11":
         alert("Es de mañana.")
     break;
+
 }
 //alert (laHora);
 	
