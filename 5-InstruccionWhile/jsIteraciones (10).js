@@ -48,7 +48,9 @@ function mostrar()
 
 	}
 
-document.write(<br>acumuladorN</br><br>acumuladorP</br><br>contadorP</br><br>contadorN</br><br>contadorPar</br><br>promedioP</br><br>promedioN</br><br>diferencia</br>
+document.write(acumuladorN + "<br>" + acumuladorP + "<br>" + contadorP + "<br>");
+document.write(contadorN + "<br>" + contadorPar + "<br>" + promedioP + "<br>");
+document.write(promedioN + "<br>" + diferencia + "<br>");
 
 }
 
