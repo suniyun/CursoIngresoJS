@@ -1,6 +1,8 @@
 function mostrar()
 {
     var hora = document.getElementById("laHora").value;
+    var msg;
+    var msgAdicional = "";
 
     switch(hora){
         case "6":
@@ -9,7 +11,7 @@ function mostrar()
         case "9":
         case "10":
         case "11":
-            alert("Es de mañana.");
+            msg = "Es de mañana.";
         break;
         case "12":
         case "13":
@@ -19,23 +21,24 @@ function mostrar()
         case "17":
         case "18":
         case "19":
-            alert("Es de tarde.");
+            msg = "Es de tarde.";
         break;
         case "20":
         case "21":
         case "22":
         case "23":
         case "24":
-            alert("Es de noche.");
-            if(hora < "24"){
-                alert("A dormir.");
-
-            }
+            msg = "Es de noche.";
         break;
         default:
-            alert("La hora ingresada no es valida.");
+            msg = "La hora ingresada no es valida.";
         break;
 
-    }
+    } if(hora < "24"){
+        msgAdicional = "A dormir.";
+
+    } alert(msg + msgAdicional);
+
+
 
 }
