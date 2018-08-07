@@ -30,9 +30,9 @@ function mostrar()
         peso = prompt("Ingrese un peso valido.");
         peso = parseInt(peso);
 
-        acumPeso = acumPeso + peso;
-
-    } while(temperatura < -30 || temperatura > 30 || isNaN(temperatura)){
+    } acumPeso = acumPeso + peso; 
+    
+        while(temperatura < -30 || temperatura > 30 || isNaN(temperatura)){
         temperatura = prompt("Ingrese una temperatura valida.");
         temperatura = parseInt(temperatura);
 
